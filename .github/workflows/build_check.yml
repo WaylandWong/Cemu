@@ -12,6 +12,10 @@ on:
       - "*.md"
     branches:
       - main
+  release:
+    types: 
+      - published
+      - prereleased
 
 jobs:
   build:
